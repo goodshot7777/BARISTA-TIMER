@@ -1,0 +1,85 @@
+# BARISTA TIMER ☕
+
+**BARISTA TIMER** は、こだわりのコーヒー抽出を正確にサポートするための Streamlit 製タイマーアプリです。
+`recipes/` フォルダ内の JSON ファイルを自動的に読み込み、ステップごとの注水量や残り時間をガイドします。
+
+---
+
+## 🌟 主な機能
+
+* **マルチレシピ管理**: `recipes/` フォルダ内のすべての JSON ファイルを自動登録。
+* **降順ソート表示**: ファイル名の降順（新しい順や数字の大きい順）でレシピを表示し、登録したレシピに素早くアクセス可能。
+* **リアルタイムガイド**: 
+    * 次のアクション、注水量、時間の表示。
+    * 5秒前からのカウントダウン音。
+    * 抽出終了の通知音。
+* **詳細スペック表示**: 
+    * 総水量、合計時間、豆の量、抽出温度、挽き目、抽出比率（Brew Ratio）を自動計算して表示。
+* **気分が上がるおみくじ**: 
+    * 抽出終了時にランダムで表示されるおみくじ。
+---
+
+## 📁 フォルダ構成
+
+リポジトリ内を以下の構成にすることで、アプリが正しく動作します。
+
+```text
+.
+.
+├── .streamlit/
+│   └── config.toml
+├── app.py                # アプリケーション本体
+├── recipes/              # レシピ（JSON）を保管するフォルダ★配布時レシピを改変してください
+│   ├── 1_test.json
+│   └── my_recipes.json
+├── logo.png              # トップlog画像5:1 ★配布時改変してください
+├── Countdown03-3.mp3     # カウントダウン用音声
+├── Water_Drop02-1(Low-Reverb).mp3 # 終了通知用音声
+├── requirements.txt
+└── README.md             # 本ドキュメント
+```
+###  ヒント：起動コマンド
+streamlit run app.py
+###  ヒント：streamlitでの動作がおすすめです
+https://share.streamlit.io/
+
+## レシピの追加方法
+recipes/ フォルダ内に新しい .json ファイルを作成するだけで、アプリに自動反映されます。
+
+レシピファイルの記述例:
+
+JSON
+```text
+[
+    {
+        "name": "🇧🇷いつものブラジル&ドリップバッグ一般",
+        "temp": "85℃",
+        "beans": "12.0g",
+        "grind": "中挽き",
+        "note": "円錐ドリッパーかドリップバッグ 濃度は気分で最後に調整",
+        "url": "",
+        "steps": [
+            {"action": "お湯を注ぐ", "duration": 10, "water": 30},
+            {"action": "待つ(蒸らす)", "duration": 35, "water": 0},
+            {"action": "お湯を注ぐ", "duration": 15, "water": 30},
+            {"action": "待つ", "duration": 15, "water": 0},
+            {"action": "お湯を注ぐ", "duration": 15, "water": 40},
+            {"action": "待つ", "duration": 15, "water": 0},
+            {"action": "お湯を注ぐ(濃度は好みで調整)", "duration": 15, "water": 70},
+            {"action": "落とし切る", "duration": 30, "water": 0}
+        ]
+    }
+]
+```
+## ヒント：AI Recipe Generatorを使用するとURLを入力するだけでレシピを生成できます(驚愕)
+https://gemini.google.com/gem/1xwL8d-56B3SF-KxoIm--vC6wKjSM542i?usp=sharing
+
+## 🔊 クレジット（音声素材）
+本アプリの通知音には、以下の素材を使用させていただいております。  
+Sound by OtoLogic (CC BY 4.0)  
+https://otologic.jp/
+
+## 📄 ライセンス
+© 2026 GoodShot7777 やっぱり猫が大好き  
+https://note.com/otz5099
+---
