@@ -38,7 +38,7 @@
 └── README.md             # 本ドキュメント
 ```
 ###  ヒント：起動コマンド
-streamlit run app.py
+streamlit run streamlit_app.py
 ###  ヒント：streamlitでの動作がおすすめです
 https://share.streamlit.io/
 
