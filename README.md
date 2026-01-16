@@ -25,7 +25,6 @@
 
 ```text
 .
-.
 ├── .streamlit/
 │   └── config.toml
 ├── app.py                # アプリケーション本体
