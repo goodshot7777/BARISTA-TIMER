@@ -1,0 +1,22 @@
+[
+    {
+        "name": "☕エチオピア ゲイシャ 浅煎り抽出レシピ",
+        "temp": "92℃",
+        "beans": "13.0g",
+        "grind": "中細挽き (浅煎りのため少し細かめ)",
+        "note": "note記事『エチオピアゲイシャで焙煎アプリをテスト！』の豆を想定。DRIPPER：ハリオV60等の円錐型 FILTER：アバカプラス推奨。浅煎りの華やかな香りとフルーティーな酸味を強調するため、高めの温度で抽出を開始します。",
+        "url": "https://note.com/otz5099/n/n8b8dd2ce50f5",
+        "steps": [
+            {"action": "お湯を注ぐ (蒸らし・全体を湿らせる)", "duration": 10, "water": 30},
+            {"action": "待つ (しっかり蒸らす)", "duration": 30, "water": 0},
+            {"action": "お湯を注ぐ (酸味を引き出す2投目)", "duration": 10, "water": 45},
+            {"action": "待つ", "duration": 15, "water": 0},
+            {"action": "お湯を注ぐ (甘みを引き出す3投目)", "duration": 10, "water": 45},
+            {"action": "待つ", "duration": 15, "water": 0},
+            {"action": "お湯を注ぐ (濃度を調整する4投目)", "duration": 10, "water": 40},
+            {"action": "待つ", "duration": 10, "water": 0},
+            {"action": "お湯を注ぐ (最後の調整)", "duration": 10, "water": 35},
+            {"action": "落とし切る (2分15秒〜2分30秒目安)", "duration": 35, "water": 0}
+        ]
+    }
+]
