@@ -1,0 +1,22 @@
+[
+    {
+        "name": "エチオピアゲイシャ 浅煎り甘み強調レシピ (13g:215g)",
+        "temp": "92〜95℃",
+        "beans": "13.0g",
+        "grind": "中粗挽き",
+        "note": "カッピングの結果を考慮しブリューレシオを約1:16.5に調整。総湯量214.5g(約215g)。粉に対して湯量を多めにすることで、未抽出による尖った酸味を抑え、甘みとフレーバーを広げます。",
+        "url": "https://note.com/otz5099/n/na80c06e1a49e",
+        "steps": [
+            {"action": "お湯を注ぐ (1投目：酸味を抑える控えめな量)", "duration": 10, "water": 30},
+            {"action": "待つ (蒸らす)", "duration": 35, "water": 0},
+            {"action": "お湯を注ぐ (2投目：甘みを引き出す多めの量)", "duration": 10, "water": 56},
+            {"action": "待つ", "duration": 35, "water": 0},
+            {"action": "お湯を注ぐ (3投目：濃度調整1)", "duration": 10, "water": 43},
+            {"action": "待つ", "duration": 30, "water": 0},
+            {"action": "お湯を注ぐ (4投目：濃度調整2)", "duration": 10, "water": 43},
+            {"action": "待つ", "duration": 30, "water": 0},
+            {"action": "お湯を注ぐ (5投目：濃度調整3)", "duration": 10, "water": 43},
+            {"action": "落とし切る", "duration": 40, "water": 0}
+        ]
+    }
+]
