@@ -13,8 +13,8 @@
             {"action": "待つ", "duration": 25, "water": 0},
             {"action": "お湯を注ぐ(細めに)", "duration": 5, "water": 30},
             {"action": "待つ", "duration": 15, "water": 0},
-            {"action": "お湯を注ぐ(一気に水位を上げる)", "duration": 5, "water": 60},
-            {"action": "ドリッパーを揺らして落とし切る", "duration": 35, "water": 0}
+            {"action": "お湯を注ぐ(一気に水位を上げる)", "duration": 10, "water": 60},
+            {"action": "ドリッパーを揺らして落とし切る", "duration": 30, "water": 0}
         ]
     }
 ]
