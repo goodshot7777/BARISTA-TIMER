@@ -1,0 +1,20 @@
+[
+    {
+        "name": "🆕トモヤの珈琲塾 DEEP27究極レシピ",
+        "temp": "89℃(深煎り時)",
+        "beans": "11.0g",
+        "grind": "中細挽き (みるっこ：メモリ4)",
+        "note": "DRIPPER：CAFEC DEEP27 / FILTER：専用アバカプラスペーパー / 豆：ニカラグア シティロースト。後半に水位を上げることで浸漬状態を作り、雑味を抑えつつ甘みを引き出す。最後は軽く揺らして均一化。目標抽出時間：1分45秒〜2分。",
+        "url": "https://youtu.be/tgKQJEOnM08?list=TLGGnfI30MLIIM8yNDAyMjAyNg",
+        "steps": [
+            {"action": "お湯を注ぐ(全体にしっかり)", "duration": 5, "water": 30},
+            {"action": "待つ(蒸らす)", "duration": 25, "water": 0},
+            {"action": "お湯を注ぐ(端までいったら真ん中へ)", "duration": 5, "water": 35},
+            {"action": "待つ", "duration": 25, "water": 0},
+            {"action": "お湯を注ぐ(細めに)", "duration": 5, "water": 30},
+            {"action": "待つ", "duration": 15, "water": 0},
+            {"action": "お湯を注ぐ(一気に水位を上げる)", "duration": 5, "water": 60},
+            {"action": "ドリッパーを揺らして落とし切る", "duration": 35, "water": 0}
+        ]
+    }
+]

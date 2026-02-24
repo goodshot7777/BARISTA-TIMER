@@ -1,0 +1,20 @@
+[
+    {
+        "name": "🆕DEEP27 Reddit Micro-Dose Protocol",
+        "temp": "93℃ (超浅95℃ / 中91℃ / 深88℃)",
+        "beans": "8.0g",
+        "grind": "指定なし",
+        "note": "DRIPPER：CAFEC DEEP27向け。極少量抽出用。流速は秒間8ml程度を維持し、パルス間はベッドがほぼ乾くまで待つことでボディ感と強度を高める。焙煎度により温度調整：超浅95℃、中91℃、深88℃推奨。",
+        "url": "https://www.reddit.com/r/pourover/comments/1iambtt/cafec_deep_27_dripper_how_do_you_get_the_best/?show=original",
+        "steps": [
+            {"action": "お湯を注ぐ(蒸らし)", "duration": 10, "water": 34},
+            {"action": "待つ(蒸らす)", "duration": 20, "water": 0},
+            {"action": "お湯を注ぐ(2投目)", "duration": 5, "water": 34},
+            {"action": "待つ(落ち切る直前まで)", "duration": 25, "water": 0},
+            {"action": "お湯を注ぐ(3投目)", "duration": 5, "water": 34},
+            {"action": "待つ(落ち切る直前まで)", "duration": 25, "water": 0},
+            {"action": "お湯を注ぐ(4投目)", "duration": 5, "water": 34},
+            {"action": "落とし切る", "duration": 35, "water": 0}
+        ]
+    }
+]
