@@ -14,7 +14,7 @@
             {"action": "外周粉流して中心に円を描かず注ぐ", "duration": 15, "water": 40},
             {"action": "待つ", "duration": 20, "water": 0},
             {"action": "外周粉流して中心に円を描かず注ぐ", "duration": 15, "water": 50},
-            {"action": "落とし切る", "duration": 30, "water": 0}
+            {"action": "落とし切る", "duration": 25, "water": 0}
         ]
     }
 ]
